@@ -47,3 +47,45 @@ button:hover {
 }
 
 
+/* Navigation */
+nav {
+  background-color: #333;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+  color: #4CAF50;  /* Ändert die Farbe beim Hover */
+}
+
+section {
+  margin: 20px;
+}
+
+/* Styling für den Kontaktbereich */
+#contact a {
+  color: #4CAF50;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#contact a:hover {
+  color: #45a049;
+}
