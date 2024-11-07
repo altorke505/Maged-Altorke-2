@@ -1,63 +1,30 @@
-/* Reset some default styles */
+/* Reset der Standard-Abstände und Ränder */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Allgemeine Seitenstile */
+/* Grundlegende Seiteinstellungen */
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f9;
+  background-color: #f0f0f0;
   color: #333;
   padding: 20px;
-}
-
-h1 {
-  color: #4CAF50;
-  font-size: 3rem;
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-p {
-  font-size: 1.2rem;
   line-height: 1.6;
-  max-width: 800px;
-  margin: 0 auto;
-  text-align: center;
 }
 
-/* Button Styling */
-button {
-  display: block;
-  width: 200px;
-  margin: 20px auto;
-  padding: 15px;
-  background-color: #4CAF50;
-  color: white;
-  font-size: 1.1rem;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-button:hover {
-  background-color: #45a049;
-}
-
-
-/* Navigation */
+/* Navigation (Menü) */
 nav {
   background-color: #333;
-  padding: 10px 0;
+  padding: 10px;
   text-align: center;
 }
 
 nav ul {
   list-style-type: none;
-  margin: 0;
   padding: 0;
+  margin: 0;
 }
 
 nav ul li {
@@ -72,20 +39,27 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #4CAF50;  /* Ändert die Farbe beim Hover */
+  color: #4CAF50; /* Grüne Farbe, wenn man mit der Maus drüber fährt */
 }
 
+/* Allgemeiner Abschnitt */
 section {
-  margin: 20px;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* Styling für den Kontaktbereich */
-#contact a {
-  color: #4CAF50;
+h1, h2 {
+  color: #4CAF50; /* Grüne Farbe für Überschriften */
+}
+
+a {
+  color: #4CAF50; /* Linkfarbe */
   text-decoration: none;
-  font-weight: bold;
 }
 
-#contact a:hover {
-  color: #45a049;
+a:hover {
+  text-decoration: underline; /* Unterstreichen von Links, wenn man mit der Maus drüber fährt */
 }
